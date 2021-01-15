@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  background-color: #D3F3C8;
+  color: #D3F3C8;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+  background-color: #59A27A;
+  border-radius: 0.5em;
+}
+
+header > h1 {
+  margin-top: 1rem;
+  font-family: 'Abril Fatface', courant';
+  font-size: 5rem;
+}
+
+.gallery {
+  display: grid;
+  margin: 3em 0;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+  grid-template-rows: 1fr;
+  grid-gap: 1em;
+  grid-auto-flow: dense;
+}
+
+figure {
+  display: flex;
+  margin: 0;
+}
+
+img {
+  flex: 1;
+  max-width: 100%;
+  object-fit: cover;
+}
