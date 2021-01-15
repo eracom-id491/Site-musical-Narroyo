@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizin: border-box;
+}
+
+html, body {
+  height: 80vh;
+  background-color: #D3F3C8;
+  font-family: 'Abril Fatface', courant;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+	ul{list-style: none;
+	display: flex;
+	}
+li{
+	margin-top: 2rem;
+	margin-left: 2rem;
+	max-height: 3rem;
+	margin-bottom: 2rem;
+	max-width: 500px
+
+}
+p {
+  font-size: 300px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: 0;
+}
